@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --primary: #e3f1fa;
+    --secondary:#ed9768;
+    --font-color:#334669;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.container-main{
+    width: 30%; 
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    padding: 12px;
+}
+.icon-img{
+    height: 15px;
+    width: 10px;
+    color: var(--secondary);
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.head{
+    display: flex;
+}
+
+.head-p{
+    font-size: 12px;
+    margin-top: 0px;
+    color: var(--font-color);
+}
+
+.text{
+    color: var(--font-color);
+   margin-bottom: 0px;
+   
+}
+
+.head-2{
+    display: flex;
+}
+.btn{
+    background-color: var(--secondary);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--font-color);
+    justify-content: center;
+    padding: 2px 16px;
+    margin: 23px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon-img-2{
+    width: 23px;
+    color: var(--secondary);
+    padding: 8px;   
+}
+
+.head-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.card{
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icon-img-3{
+  margin-left: 330px;
+}
+
+.body-img{
+    height: 25px;
+    width: 25px;
+    margin: 8px 12px;
+    display: flex;
+   
+}
+.container-body{
+    width: 30%;
+    height: 100%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content:flex-start;
+}
+.body-p{
+   margin-top: -10px;
+   font-size: 13px;
+   color: var(--font-color);
+}
+
+.order-information{
+    margin: 12px;
+    color: var(--font-color);
+}
+.order-img{
+    margin: 12px;
+    color: var(--secondary);
+}
+
+.container-main-footer{
+    width: 30%; 
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-footer{
+    font-size: 10px;
+    color: var(--font-color);
+}
+
+@media only screen 
+and (min-device-width : 250px) 
+and (max-device-width : 1024px)  {
+
+    .container-main{
+        width: 100%;
+    }
+
+    .container-body{
+        width: 100%;
+    }
+
+    .container-main-footer{
+        width: 100%;
+        align-items: center;
+    }
+}
